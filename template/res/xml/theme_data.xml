@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2019-2020 The exTHmUI Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<theme>
+    <!-- 背景 -->
+    <!-- 需要放在 assets/backgrounds 文件夹下 -->
+    <backgrounds>
+        <!-- 壁纸 -->
+        <!-- 16:9 屏幕的壁纸 -->
+        <wallpaper ratio_height="16" ratio_width="9">wallpaper_16_9.jpg</wallpaper>
+        <!-- 19.5:9 的壁纸 -->
+        <wallpaper ratio_height="19.5" ratio_width="9">wallpaper_19.5_9.jpg</wallpaper>
+        <!-- 其他比例的壁纸 -->
+        <wallpaper>wallpaper.jpg</wallpaper>
+        <!-- 锁屏壁纸 (同样支持指定屏幕比例，不过应用时会自动居中) -->
+        <lockscreen>lockscreen.png</lockscreen>
+    </backgrounds>
+
+    <!-- 声音 -->
+    <!-- 需要放在 assets/sounds 文件夹下 -->
+    <sounds>
+        <!-- 来电铃声 -->
+        <ringtone>きらきら星.mp3</ringtone>
+        <!-- 闹钟铃声 -->
+        <alarm>イニシャル.mp3</alarm>
+        <!-- 通知提示音 -->
+        <notification>SE_RHYTHM_FULLCOMBO.mp3</notification>
+    </sounds>
+
+    <!-- 叠加层列表 -->
+    <!-- 叠加层需要放到 overlay 文件夹下 -->
+    <!-- 关于如何编写叠加层，请参考 overlay/android -->
+    <overlay>
+        <target>android</target>
+        <target>com.android.systemui</target>
+        <target>com.android.messaging</target>
+        <target>com.tencent.mobileqq</target>
+        <target>com.netease.cloudmusic</target>
+    </overlay>
+
+</theme>

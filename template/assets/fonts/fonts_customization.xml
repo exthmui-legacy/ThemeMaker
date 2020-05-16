@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2019-2020 The exTHmUI Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<fonts-modification version="1">
+
+    <!-- 基本字体替换 -->
+    <family customizationType="new-named-family" name="sans-serif">
+        <font weight="100" style="normal">Roboto-Thin.ttf</font>
+        <font weight="100" style="italic">Roboto-ThinItalic.ttf</font>
+        <font weight="300" style="normal">Roboto-Light.ttf</font>
+        <font weight="300" style="italic">Roboto-LightItalic.ttf</font>
+        <font weight="400" style="normal">Roboto-Regular.ttf</font>
+        <font weight="400" style="italic">Roboto-Italic.ttf</font>
+        <font weight="500" style="normal">Roboto-Medium.ttf</font>
+        <font weight="500" style="italic">Roboto-MediumItalic.ttf</font>
+        <font weight="900" style="normal">Roboto-Black.ttf</font>
+        <font weight="900" style="italic">Roboto-BlackItalic.ttf</font>
+        <font weight="700" style="normal">Roboto-Bold.ttf</font>
+        <font weight="700" style="italic">Roboto-BoldItalic.ttf</font>
+    </family>
+
+    <!-- 增加别名 -->
+    <alias name="sans-serif-condensed" to="sans-serif" />
+    <alias name="sans-serif-condensed-light" to="sans-serif" weight="300" />
+    <alias name="sans-serif-condensed-medium" to="sans-serif" weight="500" />
+
+    <!-- CJK环境下的 sans-serif 字体 fallback -->
+    <family lang="zh-Hans" customizationType="new-fallback">
+		<font weight="300" style="normal">NotoSansSC-Light.otf</font>
+        <font weight="400" style="normal">NotoSansSC-Regular.otf</font>
+		<font weight="700" style="normal">NotoSansSC-Bold.otf</font>
+    </family>
+    <family lang="zh-Hant zh-Bopo" customizationType="new-fallback">
+		<font weight="300" style="normal">NotoSansSC-Light.otf</font>
+        <font weight="400" style="normal">NotoSansSC-Regular.otf</font>
+		<font weight="700" style="normal">NotoSansSC-Bold.otf</font>
+    </family>
+    <family lang="zh-Hans" customizationType="new-fallback">
+        <font weight="400" style="normal" index="2">NotoSansCJK-Regular.ttc</font>
+    </family>
+    <family lang="zh-Hant zh-Bopo" customizationType="new-fallback">
+        <font weight="400" style="normal" index="3">NotoSansCJK-Regular.ttc</font>
+    </family>
+    <family lang="ja" customizationType="new-fallback">
+        <font weight="400" style="normal" index="0">NotoSansCJK-Regular.ttc</font>
+    </family>
+    <family lang="ko" customizationType="new-fallback">
+        <font weight="400" style="normal" index="1">NotoSansCJK-Regular.ttc</font>
+    </family>
+</fonts-modification>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2019-2020 The exTHmUI Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<!-- 这里的 org.exthmui.theme.kasumi.overlay.android 是overlay的包名 -->
+<!-- 建议的格式为 {主题包名}.overlay.{目标包名} -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.exthmui.theme.kasumi.overlay.android"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk android:targetSdkVersion="29" android:minSdkVersion="28"/>
+    
+    <application
+        android:allowBackup="false"
+        android:hasCode="false" >
+        <meta-data
+            android:name="is_theme_overlay"
+            android:value="true"/>
+    </application>
+
+    <!-- targetPackage 为overlay的目标包名 -->
+    <!-- targetName 为目标的名称，目前并没有什么用，建议与目标包名保持一致 -->
+    <overlay
+        android:targetPackage="android"
+        android:targetName="android"
+        android:priority="1" 
+        android:isStatic="false" />
+</manifest>
