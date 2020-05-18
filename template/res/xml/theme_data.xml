@@ -48,8 +48,6 @@
         <target>android</target>
         <target>com.android.systemui</target>
         <target>com.android.messaging</target>
-        <target>com.tencent.mobileqq</target>
-        <target>com.netease.cloudmusic</target>
     </overlay>
 
 </theme>
