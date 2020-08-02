@@ -9,5 +9,5 @@ new-named-family 表示这是一个新增的字体家族，或者是已有字体
 new-fallback 表示这是对一个字体家族的 fallback 的扩充
 对于指定为 new-fallback 的字体家族，它的 name 属性将会被忽略
 
-具体的编写方法可以参考本文件夹下的 fonts.xml 和 fonts_customization.xml (由 fonts.xml 转换而来)
+具体的编写方法可以参考本文件夹下的 fonts.xml 和 fonts_customization.xml (由 fonts.xml 提取有用的部分转换而来)
 

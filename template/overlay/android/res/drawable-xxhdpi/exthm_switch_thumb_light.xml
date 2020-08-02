@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_focused="true" android:state_enabled="false" android:state_checked="true" android:drawable="@android:drawable/exthm_switch_thumb_disabled_on_focused_light" />
+    <item android:state_enabled="false" android:state_checked="true" android:drawable="@android:drawable/exthm_switch_thumb_disabled_on_light" />
+    <item android:state_checked="true" android:state_pressed="true" android:drawable="@android:drawable/exthm_switch_thumb_on_pressed_light" />
+    <item android:state_focused="true" android:state_checked="true" android:drawable="@android:drawable/exthm_switch_thumb_on_focused_light" />
+    <item android:state_checked="true" android:drawable="@android:drawable/exthm_switch_thumb_on_light" />
+    <item android:state_focused="true" android:state_enabled="false" android:drawable="@android:drawable/exthm_switch_thumb_disabled_off_focused_light" />
+    <item android:state_enabled="false" android:drawable="@android:drawable/exthm_switch_thumb_disabled_off_light" />
+    <item android:state_pressed="true" android:drawable="@android:drawable/exthm_switch_thumb_off_pressed_light" />
+    <item android:state_focused="true" android:drawable="@android:drawable/exthm_switch_thumb_off_focused_light" />
+    <item android:drawable="@android:drawable/exthm_switch_thumb_off_light" />
+</selector>

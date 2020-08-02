@@ -16,8 +16,8 @@
 -->
 
 <resources>
-    <!-- 包含字体 -->
-    <bool name="has_fonts">true</bool>
-    <!-- 包含开机动画 -->
-    <bool name="has_bootanimation">true</bool>
+    <!-- 主题是否包含字体 -->
+    <bool name="has_fonts">false</bool>
+    <!-- 主题是否包含开机动画 -->
+    <bool name="has_bootanimation">false</bool>
 </resources>
