@@ -34,9 +34,9 @@
     <!-- 需要放在 assets/sounds 文件夹下 -->
     <sounds>
         <!-- 来电铃声 -->
-        <ringtone>きらきら星.mp3</ringtone>
+        <ringtone title="きらきら星" >ringtone.mp3</ringtone>
         <!-- 闹钟铃声 -->
-        <alarm>イニシャル.mp3</alarm>
+        <alarm title="イニシャル" >alarm.mp3</alarm>
         <!-- 通知提示音 -->
         <notification>SE_RHYTHM_FULLCOMBO.mp3</notification>
     </sounds>
