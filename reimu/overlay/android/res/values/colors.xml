@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="accent_device_default_dark">#dc4437</color>
+    <color name="accent_device_default_light">#dc4437</color>
+    <color name="exthm_color_toast_text_dark">#ffffff</color>
+</resources>

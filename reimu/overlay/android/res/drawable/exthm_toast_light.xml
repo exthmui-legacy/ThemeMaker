@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+      <shape android:shape="rectangle">
+        <corners android:radius="?android:attr/dialogCornerRadius" />
+        <solid android:color="?android:colorBackground" />
+      </shape>
+    </item>
+    <item>
+        <bitmap android:gravity="top|right" 
+                android:src="@*android:drawable/exthm_background_element_02_light" 
+                android:tileMode="disabled" />
+    </item>
+</layer-list>

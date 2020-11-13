@@ -1,0 +1,4 @@
+<resources>
+    <bool name="exthm_use_custom_battery">true</bool>
+    <bool name="qs_custom_header">true</bool>
+</resources> 

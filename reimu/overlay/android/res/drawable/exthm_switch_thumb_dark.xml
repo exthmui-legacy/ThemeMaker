@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector android:constantSize="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:id="@*android:id/off">
+        <nine-patch android:gravity="center" android:src="@*android:drawable/exthm_switch_thumb_to_off_12_light" />
+    </item>
+    <item android:state_checked="true" android:id="@*android:id/on">
+        <nine-patch android:gravity="center" android:src="@*android:drawable/exthm_switch_thumb_to_off_01_light" />
+    </item>
+    <item android:id="@*android:id/off">
+        <nine-patch android:gravity="center" android:src="@*android:drawable/exthm_switch_thumb_to_off_12_light" />
+    </item>
+    <transition android:toId="@*android:id/on" android:fromId="@*android:id/off">
+        <animation-list>
+            <item android:duration="15">
+                <nine-patch android:gravity="center" android:src="@*android:drawable/exthm_switch_thumb_to_off_12_light" />
+            </item>
+            <item android:duration="15">
+                <nine-patch android:gravity="center" android:src="@*android:drawable/exthm_switch_thumb_to_off_11_light" />
+            </item>
+            <item android:duration="15">
+                <nine-patch android:gravity="center" android:src="@*android:drawable/exthm_switch_thumb_to_off_10_light" />
+            </item>
+            <item android:duration="15">
+                <nine-patch android:gravity="center" android:src="@*android:drawable/exthm_switch_thumb_to_off_09_light" />
+            </item>
+            <item android:duration="15">
+                <nine-patch android:gravity="center" android:src="@*android:drawable/exthm_switch_thumb_to_off_08_light" />
+            </item>
+            <item android:duration="15">
+                <nine-patch android:gravity="center" android:src="@*android:drawable/exthm_switch_thumb_to_off_07_light" />
+            </item>
+            <item android:duration="15">
+                <nine-patch android:gravity="center" android:src="@*android:drawable/exthm_switch_thumb_to_off_06_light" />
+            </item>
+            <item android:duration="15">
+                <nine-patch android:gravity="center" android:src="@*android:drawable/exthm_switch_thumb_to_off_05_light" />
+            </item>
+            <item android:duration="15">
+                <nine-patch android:gravity="center" android:src="@*android:drawable/exthm_switch_thumb_to_off_04_light" />
+            </item>
+            <item android:duration="15">
+                <nine-patch android:gravity="center" android:src="@*android:drawable/exthm_switch_thumb_to_off_03_light" />
+            </item>
+            <item android:duration="15">
+                <nine-patch android:gravity="center" android:src="@*android:drawable/exthm_switch_thumb_to_off_02_light" />
+            </item>
+            <item android:duration="15">
+                <nine-patch android:gravity="center" android:src="@*android:drawable/exthm_switch_thumb_to_off_01_light" />
+            </item>
+        </animation-list>
+    </transition>
+    <transition android:toId="@*android:id/off" android:fromId="@*android:id/on">
+        <animation-list>
+            <item android:duration="15">
+                <nine-patch android:gravity="center" android:src="@*android:drawable/exthm_switch_thumb_to_off_01_light" />
+            </item>
+            <item android:duration="15">
+                <nine-patch android:gravity="center" android:src="@*android:drawable/exthm_switch_thumb_to_off_02_light" />
+            </item>
+            <item android:duration="15">
+                <nine-patch android:gravity="center" android:src="@*android:drawable/exthm_switch_thumb_to_off_03_light" />
+            </item>
+            <item android:duration="15">
+                <nine-patch android:gravity="center" android:src="@*android:drawable/exthm_switch_thumb_to_off_04_light" />
+            </item>
+            <item android:duration="15">
+                <nine-patch android:gravity="center" android:src="@*android:drawable/exthm_switch_thumb_to_off_05_light" />
+            </item>
+            <item android:duration="15">
+                <nine-patch android:gravity="center" android:src="@*android:drawable/exthm_switch_thumb_to_off_06_light" />
+            </item>
+            <item android:duration="15">
+                <nine-patch android:gravity="center" android:src="@*android:drawable/exthm_switch_thumb_to_off_07_light" />
+            </item>
+            <item android:duration="15">
+                <nine-patch android:gravity="center" android:src="@*android:drawable/exthm_switch_thumb_to_off_08_light" />
+            </item>
+            <item android:duration="15">
+                <nine-patch android:gravity="center" android:src="@*android:drawable/exthm_switch_thumb_to_off_09_light" />
+            </item>
+            <item android:duration="15">
+                <nine-patch android:gravity="center" android:src="@*android:drawable/exthm_switch_thumb_to_off_10_light" />
+            </item>
+            <item android:duration="15">
+                <nine-patch android:gravity="center" android:src="@*android:drawable/exthm_switch_thumb_to_off_11_light" />
+            </item>
+            <item android:duration="15">
+                <nine-patch android:gravity="center" android:src="@*android:drawable/exthm_switch_thumb_to_off_12_light" />
+            </item>
+        </animation-list>
+    </transition>
+</animated-selector>

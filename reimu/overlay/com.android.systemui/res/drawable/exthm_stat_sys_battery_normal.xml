@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:maxLevel="4" android:drawable="@*com.android.systemui:drawable/exthm_stat_sys_battery_normal_00" />
+    <item android:maxLevel="8" android:drawable="@*com.android.systemui:drawable/exthm_stat_sys_battery_normal_01" />
+    <item android:maxLevel="12" android:drawable="@*com.android.systemui:drawable/exthm_stat_sys_battery_normal_02" />
+    <item android:maxLevel="16" android:drawable="@*com.android.systemui:drawable/exthm_stat_sys_battery_normal_03" />
+    <item android:maxLevel="20" android:drawable="@*com.android.systemui:drawable/exthm_stat_sys_battery_normal_04" />
+    <item android:maxLevel="24" android:drawable="@*com.android.systemui:drawable/exthm_stat_sys_battery_normal_05" />
+    <item android:maxLevel="28" android:drawable="@*com.android.systemui:drawable/exthm_stat_sys_battery_normal_06" />
+    <item android:maxLevel="32" android:drawable="@*com.android.systemui:drawable/exthm_stat_sys_battery_normal_07" />
+    <item android:maxLevel="36" android:drawable="@*com.android.systemui:drawable/exthm_stat_sys_battery_normal_08" />
+    <item android:maxLevel="40" android:drawable="@*com.android.systemui:drawable/exthm_stat_sys_battery_normal_09" />
+    <item android:maxLevel="44" android:drawable="@*com.android.systemui:drawable/exthm_stat_sys_battery_normal_10" />
+    <item android:maxLevel="48" android:drawable="@*com.android.systemui:drawable/exthm_stat_sys_battery_normal_11" />
+    <item android:maxLevel="52" android:drawable="@*com.android.systemui:drawable/exthm_stat_sys_battery_normal_12" />
+    <item android:maxLevel="56" android:drawable="@*com.android.systemui:drawable/exthm_stat_sys_battery_normal_13" />
+    <item android:maxLevel="60" android:drawable="@*com.android.systemui:drawable/exthm_stat_sys_battery_normal_14" />
+    <item android:maxLevel="64" android:drawable="@*com.android.systemui:drawable/exthm_stat_sys_battery_normal_15" />
+    <item android:maxLevel="68" android:drawable="@*com.android.systemui:drawable/exthm_stat_sys_battery_normal_16" />
+    <item android:maxLevel="72" android:drawable="@*com.android.systemui:drawable/exthm_stat_sys_battery_normal_17" />
+    <item android:maxLevel="76" android:drawable="@*com.android.systemui:drawable/exthm_stat_sys_battery_normal_18" />
+    <item android:maxLevel="80" android:drawable="@*com.android.systemui:drawable/exthm_stat_sys_battery_normal_19" />
+    <item android:maxLevel="84" android:drawable="@*com.android.systemui:drawable/exthm_stat_sys_battery_normal_20" />
+    <item android:maxLevel="88" android:drawable="@*com.android.systemui:drawable/exthm_stat_sys_battery_normal_21" />
+    <item android:maxLevel="92" android:drawable="@*com.android.systemui:drawable/exthm_stat_sys_battery_normal_22" />
+    <item android:maxLevel="96" android:drawable="@*com.android.systemui:drawable/exthm_stat_sys_battery_normal_23" />
+    <item android:maxLevel="100" android:drawable="@*com.android.systemui:drawable/exthm_stat_sys_battery_normal_24" />
+</level-list> 

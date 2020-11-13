@@ -1,0 +1,9 @@
+<resources>
+    <string-array name="custom_dark_icons">
+        <item>ic_sysbar_home</item>
+        <item>ic_sysbar_home_quick_step</item>
+        <item>exthm_stat_sys_battery_charging</item>
+        <item>exthm_stat_sys_battery_normal</item>
+        <item>exthm_stat_sys_battery_powersave</item>
+    </string-array>
+</resources> 

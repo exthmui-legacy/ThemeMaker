@@ -1,0 +1,3 @@
+<resources>
+    <dimen name="status_bar_battery_icon_width">22dp</dimen>
+</resources> 
