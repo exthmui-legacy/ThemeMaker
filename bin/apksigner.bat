@@ -22,12 +22,6 @@ REM Set up prog to be the path of this script, including following symlinks,
 REM and set up progdir to be the fully-qualified pathname of its directory.
 set prog=%~f0
 
-rem Check we have a valid Java.exe in the path.
-set java_exe=
-if exist    "%~dp0..\tools\lib\find_java.bat" call    "%~dp0..\tools\lib\find_java.bat"
-if exist "%~dp0..\..\tools\lib\find_java.bat" call "%~dp0..\..\tools\lib\find_java.bat"
-if not defined java_exe goto :EOF
-
 set jarfile=apksigner.jar
 set "frameworkdir=%~dp0"
 rem frameworkdir must not end with a dir sep.
@@ -84,5 +78,5 @@ set "a=%~1"
 :endArgs
 
 set javaOpts=%javaOpts% %defaultXmx% %defaultXss%
-call "%java_exe%" %javaOpts% -jar "%jarpath%" %params%
+call "java.exe" %javaOpts% -jar "%jarpath%" %params%
 
