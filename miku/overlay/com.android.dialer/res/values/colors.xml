@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dialer_call_green">#88d4f8</color>
+    <color name="call_log_card_background">#00ffffff</color>
+
+    <color name="dialer_theme_color">#39C5BB</color>
+    <color name="dialer_theme_color_20pct">#3339C5BB</color>
+    <color name="dialer_theme_color_dark">#25B0AB</color>
+    <color name="dialer_secondary_color">#88d4f8</color>
+</resources>

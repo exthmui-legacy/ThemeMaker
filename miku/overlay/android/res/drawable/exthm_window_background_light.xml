@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="?android:colorBackground" />
+        </shape>
+    </item>
+    <item android:right="4dp">
+        <bitmap android:gravity="bottom|right" 
+                android:src="@*android:drawable/exthm_background_element_00_light" 
+                android:tileMode="disabled" />
+    </item>
+</layer-list>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <bool name="contact_image_themed">true</bool>
+    <bool name="business_contact_image_themed">true</bool>
+
+    <string-array name="themed_avatars">
+        <item>person</item>
+        <item>business</item>
+    </string-array>
+</resources>

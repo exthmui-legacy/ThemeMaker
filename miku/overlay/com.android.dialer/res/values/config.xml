@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="themed_avatars">
+        <item>person</item>
+        <item>business</item>
+        <item>generic</item>
+    </string-array>
+</resources>
