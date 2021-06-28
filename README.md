@@ -1,5 +1,7 @@
 # ThemeMaker
 
+CH | [EN](https://github.com/exthmui/ThemeMaker/blob/master/README_en.md)
+
 本工具用于制作 `exTHmUI` 的主题
 
 `template` 文件夹为主题模板
